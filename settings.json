@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "smptrials.ddns.net",
+    "ip": "SMPTrials.aternos.me",
     "port": 58760,
-    "version": "1.21.1"
+    "version": "1.20"
   },
   "position": {
     "enabled": true,
