@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "smptrials.ddns.net",
+    "port": 58760,
     "version": "1.21.1"
   },
   "position": {
@@ -30,9 +30,9 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "join .gg/TrialsSMP",
+        "make sure to join .gg/TrialsSMP",
+        "im an afk bot to keep the server online 24/7 so dont mind me"
       ]
     },
     "chat-log": true,
