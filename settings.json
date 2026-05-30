@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": ".gg/TrialsSMP",
+    "username": "Technoblade",
     "password": "",
     "type": "offline"
   },
@@ -9,7 +9,7 @@
     "ip": "SMPTrials.aternos.me",
     "port": 58760,
     "version": "1.16.5"
-  },
+    },
   "position": {
     "enabled": true,
     "x": 0,
@@ -26,19 +26,19 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": false,
-      "repeat-delay": 700,
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 500,
       "messages": [
-        "join .gg/TrialsSMP",
-        "make sure to join .gg/TrialsSMP",
-        "im an afk bot to keep the server online 24/7 so dont mind me"
+        ".gg/TrialsSMP",
+        "",
+        "I like to play Minecraft!"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 100,
-    "max-reconnect-delay": 2500,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": true,
       "min-interval": 20,
@@ -50,27 +50,27 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 20
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 500
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 500
+      "interval": 10000
     }
   },
   "modules": {
-    "avoidMobs": false,
-    "combat": false,
-    "beds": false,
+    "avoidMobs": true,
+    "combat": true,
+    "beds": true,
     "chat": true,
-    "console-commands": false
+    "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
+    "attack-mobs": true,
+    "auto-eat": true
   },
   "beds": {
     "pick-up-day": true,
